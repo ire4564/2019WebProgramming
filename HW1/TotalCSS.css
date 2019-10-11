@@ -1,0 +1,109 @@
+#title{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial Black, Gadget, sans-serif;
+}
+
+a{
+    margin-left: 20px;
+    text-align: left;
+    color: green;
+    font-family: Arial Black, Gadget, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:hover {
+    color: goldenrod;
+}
+a:active{
+    color: pink;
+}
+a:visited{
+    color:gray;
+}
+
+.box {
+    position: fixed;
+    border: 1px;
+    border-style: solid;
+    width: 850px;
+    height: 400px;
+    padding: 10p;
+}
+
+pre {
+    white-space: nowrap;
+    display: inline;
+}
+
+#storeTitle{
+    text-align: center;
+    color: darkcyan;
+    font-size: 40px;
+    font-family: Arial Black, Gadget, sans-serif;
+}
+
+
+h5{
+    display: inline;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial Black, Gadget, sans-serif;
+    padding-left: 20px;
+}
+
+h6{
+    display: inline;
+    font-weight: bold;
+}
+
+span{
+    line-height: 200%;
+}
+
+#infoBox{
+    margin-left: 245px;
+    background-color: lightblue;
+    border: 5px;
+    border-style: solid;
+    border-color: darkblue;
+    width: 40%;
+    height: 170px;
+    padding: 5px;
+}
+
+#name {
+    width: 170px;
+}
+
+#prize{
+    width: 80px;
+}
+
+#number{
+    width: 50px;
+}
+
+#padding1{
+    padding-right: 50px;
+}
+#padding2 {
+    padding-right: 80px;
+}
+#padding3 {
+    padding-right: 80px;
+}
+#padding4 {
+    padding-right: 23px;
+}
+
+#paddingBtn{
+    line-height: 5px;
+    padding-left: 128px;
+}
+
+#infomation{
+    text-align: center;
+}
