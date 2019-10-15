@@ -32,6 +32,14 @@ a:visited{
     height: 400px;
     padding: 10p;
 }
+.boxC{
+    position: fixed;
+    border: 1px;
+    border-style: solid;
+    width: 850px;
+    height: 500px;
+    padding: 10p;
+}
 
 pre {
     white-space: nowrap;
@@ -51,7 +59,7 @@ h5{
     text-align: left;
     font-weight: bold;
     font-family: Arial Black, Gadget, sans-serif;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 h6{
@@ -101,9 +109,36 @@ span{
 
 #paddingBtn{
     line-height: 5px;
-    padding-left: 128px;
+    padding-left: 117px;
 }
 
 #infomation{
     text-align: center;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+table {
+    border:1px solid;
+    border-collapse: collapse;
+    margin-left: 10px;
+    text-align: center;
+}
+
+th, td{
+    padding: 8px;
+    border:1px solid;
+}
+
+#delect {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+th{
+    background-color: green;
+    color: white;
+    border-color: black;
 }

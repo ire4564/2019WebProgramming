@@ -1,10 +1,55 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>index</title>
+            <title>상품 주문하기</title>
             <meta charset="utf-8">
+            <link rel="stylesheet" href="TotalCSS.css">
         </head>
         <body>
-
+            <div class="boxC">
+                <h1>도서 주문 페이지</h1><br/>
+                <h5>구매자 아이디 : </h5><input type="text" id="client_id"><br/><br/>
+                <input style="margin-left: 10px;" type='checkbox' name="selectAll" value="selectAll"/>모두 선택 <br/><br/>
+                <table>
+                    <tr>
+                        <th>선택</th>
+                        <th>상품명</th>
+                        <th>미리보기</th>
+                        <th>정가</th>
+                        <th>수량</th>
+                        <th>합계</th>
+                    </tr>
+                    <tr> 
+                        <td><input type='checkbox' name="select1" value="select1"/></td>
+                        <td>Learning javascript</td>
+                        <td><button>미리보기</button></td>
+                        <td>37000</td>
+                        <td><input type='text' id='Howmany'><button>변경</button></td>
+                        <td>1110000</td>
+                    </tr>
+                    <tr> 
+                            <td><input type='checkbox' name="select1" value="select1"/></td>
+                            <td>Learning javascript</td>
+                            <td><button>미리보기</button></td>
+                            <td>37000</td>
+                            <td><input type='text' id='Howmany'><button>변경</button></td>
+                            <td>1110000</td>
+                    </tr>
+                    <tr> 
+                            <td><input type='checkbox' name="select1" value="select1"/></td>
+                            <td>Learning javascript</td>
+                            <td><button>미리보기</button></td>
+                            <td>37000</td>
+                            <td><input type='text' id='Howmany'><button>변경</button></td>
+                            <td>1110000</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">선택한 총 상품 금액</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+                <br/><h5>총 1개 상품 선택</h5><br/>
+                <br/><button id='delect'>삭제하기</button><button id='order'>주문하기</button>
+            </div>
         </body>
     </html>
