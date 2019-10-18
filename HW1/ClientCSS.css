@@ -1,0 +1,49 @@
+.boxC{
+    position: fixed;
+    border: 1px;
+    border-style: solid;
+    width: 850px;
+    height: 700px;
+    padding: 10p;
+}
+
+
+
+table {
+    border:1px solid;
+    border-collapse: collapse;
+    margin-left: 10px;
+    text-align: center;
+}
+th, td{
+    padding: 8px;
+    border:1px solid;
+}
+
+#delect {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+th{
+    background-color: green;
+    color: white;
+    border-color: black;
+}
+
+
+h1 {
+    padding-left: 10px;
+}
+
+h5{
+    display: inline;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial Black, Gadget, sans-serif;
+    padding-left: 10px;
+}
+
+#Howmany {
+    width: 60px;
+}

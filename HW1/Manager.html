@@ -4,25 +4,26 @@
             <title>Manager</title>
             <meta charset="utf-8">
             <link rel="stylesheet" href="TotalCSS.css">
-            <script type="text/javascript" src="storeDatajs"></script>
+          <!--  <script type="text/javascript" src="storeDatajs"></script>-->
         </head>
         <body>
-            <? include "sendData.php"; ?>
             <div class = "box">
-                   <h1 id="storeTitle">상품 정보 저장하기</h1><br/>
-                
+                   <h1 id="storeTitle">상품  정보 저장하기</h1><br/>
+                   <form action = "sendData2.php" method="POST" enctype="multipart/form-data">
                         <div id="infoBox">
                             <span>
-                            <h5 id="padding1">상품 이름</h5><input type="text" id="name"><br/>
-                            <h5 id="padding2">가격</h5><input type="text" id="prize"><br/>
-                            <h5 id="padding3">수량</h5><input type="text" id="number"><br/>
-                            <h5 id="padding4">미리보기 화일</h5><button id="selectFile">파일 선택</button><h6>선택된 파일 없음</h6><br/>
+                            <h5 id="padding1">상품 이름</h5><input type="text" name="name" id="name"><br/>
+                            <h5 id="padding2">가격</h5><input type="text" name="prize" id="prize"><br/>
+                            <h5 id="padding3">수량</h5><input type="text" name="number" id="number"><br/>
+                            <h5 id="padding4">미리보기 화일</h5><input type="file" name="fileToUpload" value="파일 선택" id="fileToUpload"><br/>
                             </span>
                             <div id="paddingBtn">
-                                <br/><button id="saveThis">저장하기</button>
+                                <br/><input type="submit" value="저장하기" name="submit">
                             </div>
                          </div>
+                    </form>
                    
             </div>
         </body>
     </html>
+
