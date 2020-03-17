@@ -1,0 +1,97 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#txtBox1 {
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: #08088A;
+    background-color: blue;
+    padding: 15px;
+    height: 60px;
+    width: 100%;
+    text-align: center
+}
+
+h4 {
+    font-size: 30px;
+    color: white;
+}
+
+.txtBox2 {
+    border-style: solid;
+    border-width: 0 0 0 8px;
+    padding: 12px;
+    word-break: break-all;
+    border-color: orange;
+    background-color: yellow;
+
+}
+
+table {
+    text-align: center;
+    width: 600px;
+    border: 3px solid black;
+    border-collapse: collapse;
+
+}
+
+th, td{
+    width: 100px;
+    border: 2px solid black;
+    font-size: 12px;
+}
+
+.clas{
+    width: 40px;
+    height: 50px;
+    font-size: 12px;
+
+}
+
+li {
+    list-style-type: circle;
+}
+
+#float {
+    float: left;
+}
+
+#one {
+    border: 3px solid blue;
+}
+
+#two {
+    border: 3px solid blue;
+}
+
+#three {
+    border: 3px solid violet;
+}
+
+#four {
+    border: 3px solid mediumseagreen;
+}
+
+#five {
+    border: 3px solid tomato;
+}
+
+#six {
+    border: 3px solid pink;
+}
+
+td[rowspan~="2"] {
+    background: cyan;
+}
+
+td[rowspan~="3"] {
+    background: gold;
+}
+
+td[rowspan~="1"] {
+    background:pink;
+}
+ 
